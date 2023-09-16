@@ -46,8 +46,8 @@ const permMark = Permanent_Marker({
 })
 function Services() {
   return (
-    <article className=' grid gap-4'>
-      <h1 className={`text-center  text-4xl font-bold ${permMark.variable} font-sans text-[#2196F3] before:[--tw-shadow-colored:_0_0_#0000;]  shadow-white min-h-screen ` }>Nuestros servicios</h1>
+    <article className=' grid gap-4  min-h-screen'>
+      <h1 className={`text-center  text-4xl font-bold ${permMark.variable} font-sans text-[#2196F3] before:[--tw-shadow-colored:_0_0_#0000;]  shadow-white ` }>Nuestros servicios</h1>
 
      <ul className={`flex flex-wrap gap-4 justify-center `}>
      {
