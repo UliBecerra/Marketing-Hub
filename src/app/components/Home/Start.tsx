@@ -9,7 +9,7 @@ const nuni = Nunito_Sans({
 })
 export default function Start() {
   return (
-    <article className={`grid grid-cols-[1fr_1fr] place-content-center ${nuni.variable} font-sans selection:bg-blue-900 selection:p-2 bg-white bg-opacity-10 p-8`}>
+    <article className={`grid md:grid-cols-[1fr_1fr] place-content-center ${nuni.variable} font-sans selection:bg-blue-900 selection:p-2 bg-white bg-opacity-10 p-8`}>
       <div className=" grid place-content-center gap-4 ">
       <h2 className='font-bold text-4xl'>Agencia de Marketing Digital</h2>
       <h3 className='text-2xl font-semibold'>Marketing digital hecho a tu medida.</h3>
